@@ -5,3 +5,5 @@ conda-update:
 pip-tools:
 	pip-compile requirements/dev.in 
 	pip-sync requirements/dev.txt
+test:
+	python -m unittest discover tests

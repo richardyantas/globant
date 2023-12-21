@@ -1,4 +1,6 @@
 # pip install Flask SQLAlchemy
 Flask
 Flask-SQLAlchemy
+google-cloud-bigquery
+google-cloud-storage
 # SQLAlchemy

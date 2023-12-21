@@ -8,7 +8,7 @@ WITH DepartmentStats AS (
     JOIN
         department D ON E.department_id = D.id
     WHERE
-        YEAR(E.datetime) = 2021
+        strftime('%Y', E.datetime) = '2021'
     GROUP BY
         D.id, D.department
 ),
